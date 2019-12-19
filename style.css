@@ -302,6 +302,7 @@ h4{
 .small-info{
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 .small-info span{
     display: inline-block;
@@ -335,6 +336,7 @@ h4{
 }
 .bg-primary{
     background-color: var(--primary);
+    color: #fff;
 }
 
 
@@ -362,6 +364,8 @@ h4{
 /* button */
 .btn{
     padding: 16px 8px;
+    border: none;
+    border-radius: 5px;
 }
 
 .btn-link{
@@ -374,4 +378,6 @@ h4{
 .btn-block{
     width: 100%;
     text-align: center;
+    margin-top: 8px;
+    
 }
